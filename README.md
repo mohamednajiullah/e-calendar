@@ -3,10 +3,10 @@ e-calendar
 
 <img src="https://raw.githubusercontent.com/jhonis/e-calendar/master/example/example.png" alt="example_image"/>
 
-####How to use
+#### How to use
   One of the simplest ways to generate a calendar is to create a div that has an element that can be chosen with jQuery. Ex: ```<div id="calendar"></div>```
 
-####Options (default)
+#### Options (default)
 ```JavaScript
 weekDays: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'],
 months: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
@@ -20,14 +20,14 @@ events: [
 ],
 firstDayOfWeek: 0
 ```
-####Event Object Properties
+#### Event Object Properties
 ```JavaScript
 title: Event title, displayed in bold
 description: Event description
 datetime: Date and time of event
 ```
 
-####Examples of use
+#### Examples of use
 ```JavaScript
 $('#calendar').eCalendar({url: 'loadCalendar'});
 
